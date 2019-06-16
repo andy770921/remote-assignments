@@ -1,0 +1,31 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+.manu_btn {
+    width: 55px;
+    height: 40px;
+    background-color: #ddd;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.manu_btn::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    height: 2px;
+    width: 35px;
+    background-color: #444;
+    margin: auto;
+    box-shadow: 0 8px 0 #000,
+                0 -8px 0 #000;
+}
