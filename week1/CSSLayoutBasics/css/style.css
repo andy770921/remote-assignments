@@ -59,6 +59,10 @@ a {
 	color: #093a58;
 }
 
+.name a,
+.main-nav a {
+	padding: 0px 15px;
+}
 /* ---- Layout Containers ---- */
 .container {
 	padding-left: 1em;
@@ -86,9 +90,21 @@ a {
 	.wrap {
 		min-height: calc(100vh - 89px);
 	}
+
 	.container {
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
+	}
+
+	.name,
+	.main-nav,
+	.main-nav li{
+		display: inline;
+	}
+
+	.name {
+		width: 240px;
+		margin-right: 50px;
 	}
 }
