@@ -61,7 +61,8 @@ a {
 
 .name a,
 .main-nav a {
-	padding: 0px 15px;
+	padding: 10px 15px;
+	display: block;
 }
 /* ---- Layout Containers ---- */
 .container {
@@ -100,7 +101,7 @@ a {
 	.name,
 	.main-nav,
 	.main-nav li{
-		display: inline;
+		display: inline-block;
 	}
 
 	.name {
