@@ -26,3 +26,25 @@ function max(...numbers){
 console.log(max(1,2,7,5,4));
 
 //Assignment 2: Object
+
+let obj1 = {
+	op: "+",
+	n1: 100,
+	n2: 1
+};
+let obj2 = {
+	op: "-",
+	n1: 100,
+	n2: 10
+};
+
+function calculate(args){
+	let result;
+	if(args.op==="+"){result=args.n1+args.n2;}
+	else if(args.op==="-"){result=args.n1-args.n2;}
+	else{result="Not supported";}
+	return result;
+}
+
+calculate(obj1);
+calculate(obj2);
