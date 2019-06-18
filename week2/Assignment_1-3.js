@@ -1,7 +1,6 @@
 //Assignment 1: Function and Array
 
-
-/* Sol.: 寫法一 */
+/* Sol.: 寫法一 
 /*function max(...numbers){
 	let array = [...numbers];
 	let a = array[0];
@@ -11,8 +10,6 @@
 	return a;
 }
 */
-
-
 /* Sol.: 寫法二 */
 function max(...numbers){
 	let array = [...numbers];
@@ -25,6 +22,7 @@ function max(...numbers){
 
 console.log(max(1,2,7,5,4));
 
+//-----------------------------------------
 //Assignment 2: Object
 
 let obj1 = {
@@ -48,3 +46,6 @@ function calculate(args){
 
 calculate(obj1);
 calculate(obj2);
+
+//-----------------------------------------
+//Assignment 3: Function, Array, and Object
