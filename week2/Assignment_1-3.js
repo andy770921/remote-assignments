@@ -1,7 +1,7 @@
 //Assignment 1: Function and Array
 
 
-/* Sol.: 寫法一: */
+/* Sol.: 寫法一 */
 /*function max(...numbers){
 	let array = [...numbers];
 	let a = array[0];
@@ -13,7 +13,7 @@
 */
 
 
-/* Sol.: 寫法二: */
+/* Sol.: 寫法二 */
 function max(...numbers){
 	let array = [...numbers];
 	a = array[0];
