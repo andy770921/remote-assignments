@@ -1,5 +1,8 @@
-/* 寫法一:
-function max(...numbers){
+//Assignment 1: Function and Array
+
+
+/* Sol.: 寫法一: */
+/*function max(...numbers){
 	let array = [...numbers];
 	let a = array[0];
 	for (let i = 1; i < array.length ; i++){
@@ -9,6 +12,8 @@ function max(...numbers){
 }
 */
 
+
+/* Sol.: 寫法二: */
 function max(...numbers){
 	let array = [...numbers];
 	a = array[0];
@@ -19,3 +24,5 @@ function max(...numbers){
 }
 
 console.log(max(1,2,7,5,4));
+
+//Assignment 2: Object
