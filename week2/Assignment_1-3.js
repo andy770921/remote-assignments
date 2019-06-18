@@ -30,11 +30,11 @@ let obj1 = {
 	n1: 100,
 	n2: 1
 };
-let obj2 = {
-	op: "-",
-	n1: 100,
-	n2: 10
-};
+
+let obj2 = {};
+obj2.op: "-";
+obj2.n1: 100;
+obj2.n2: 10;
 
 function calculate(args){
 	let result;
