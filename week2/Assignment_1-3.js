@@ -53,6 +53,11 @@ calculate(obj2);
 
 function avg(data){
 	// your code here
+	let a = 0;
+	data.products.forEach(function(element){
+		a += element.price;
+	});
+	return a/data.size;
 }
 avg({
 	size:3,
