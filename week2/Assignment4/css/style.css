@@ -42,6 +42,7 @@ li {
     right: 10px;
     margin-right: 20px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .manu_btn::before {
@@ -97,7 +98,9 @@ li {
 a:link {
     color: black;
 }
-
+.addCursor {
+  cursor: pointer;
+}
 /* ---- Navigation ---- */
 
 .main-nav {
