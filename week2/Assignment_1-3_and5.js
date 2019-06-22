@@ -57,7 +57,7 @@ function avg(data){
 	data.products.forEach(function(element){
 		a += element.price;
 	});
-	return a/data.size;
+	return a / data.size;
 }
 avg({
 	size:3,
@@ -67,6 +67,35 @@ avg({
 		{name:"Product 3", price:250}
 	]
 }); // show the average price of all products
+
+
+//-----------------------------------------
+//Assignment 5: Algorithm Practice (Advanced Optional)
+
+function twoSum(nums, target){
+	// your code here
+	let index1 = "";
+	let index2 = "";
+	for (i = 0 ; i < nums.length ; i++){
+		for (j = i ; j < nums.length ; j++){
+			if (nums[i] + nums[j] == target){
+				index1 = i;
+				index2 = j;
+			};
+		};
+	};
+	if ( Number.isInteger(index1) & Number.isInteger(index2)) {
+		return [index1, index2];
+	}
+	else {
+		return "no matched number";
+	}
+}
+console.log(twoSum([2, 7, 11, 15], 9));  
+console.log(twoSum([2, 8, 11, 15], 9)); 
+// twoSum([2, 7, 11, 15], 9)
+// returns: [0, 1]   Because: nums[0]+nums[1] is 9
+
 
 
 
