@@ -54,6 +54,32 @@ li {
                 0 -8px 0 #000;
 }
 
+/* ---- Cross Button ---- */
+
+.cross {
+  background-color: #ddd;
+  color: #444;
+  border-radius: 12px;
+  line-height: 20px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  padding: 1px;
+  position: absolute;
+  top: 16px;
+  right: 17px;
+  margin-right: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.cross::before {
+  content: "\2716";
+}
+
+
 /* ---- Layout Containers ---- */
 
 .main-header {
