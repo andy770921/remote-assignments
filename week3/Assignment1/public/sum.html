@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Calculation for Sigma</title>
+    <script>
+        let userValue = '';
+
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("answ").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", `getData?number=${userValue}`, true);
+            xhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+    <h1>The Calculation for Summation</h1>
+    <h2>Question: What is the summation of (1+2+3+...+N)?</h2>
+    <p>Please enter positive integer "N" and submit, I'll give you the answer</p>
+    <input type='text' , name='userValue' , id="inputZone" />
+    <button type='submit' id="subBtn"> Submit </button>
+    <button type="button" onclick="loadDoc()">Show Answer</button>
+    <p id="answ"> </p>
+    <script>
+        const updateUserValue = document.getElementById("subBtn");
+        updateUserValue.addEventListener('click', () => {
+            userValue = document.getElementById("inputZone").value;
+            console.log('userValue Updated');
+            console.log(userValue);
+        });
+    </script>
+</body>
+
+</html>
