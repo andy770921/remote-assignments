@@ -39,8 +39,11 @@ function render(data){
   // your code here.
   // document.createElement() and appendChild() methods are preferred.
   let body = document.getElementsByTagName('body')[0];
+  let h3 = document.createElement('h3');
   let p = document.createElement('p');
+  body.appendChild(h3);
   body.appendChild(p);
+  h3.innerHTML = 'The response data are as follows:';
   p.innerHTML = data;
 }
 ajax("https://cwpeng.github.io/live-records-samples/data/products.json", function(response){
