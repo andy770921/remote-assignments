@@ -22,13 +22,13 @@ delayedResult(-5, 10, 2000, function(result){
 }); // 5 (-5+10) will be shown in an alert dialog after 2 seconds
 
 
-// -----------Assignment 2: Callback Function and Advanced HTML DOM  ---------------------------
+// -----------  Assignment 2: Callback Function and Advanced HTML DOM  ---------------------------
 
 function ajax(src, callback){
   // your code here
   var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4&& xhr.status == 200) {
+      if (xhr.readyState === 4 && xhr.status == 200) {
         document.getElementById('ajax').innerHTML = xhr.responseText;
       }
     };
