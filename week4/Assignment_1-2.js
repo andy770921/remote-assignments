@@ -4,13 +4,13 @@ function delayedResult(n1, n2, delayTime, callback){
   // your code here
   if ( Number.isInteger(n1) &&  Number.isInteger(n2)){
     const sum = n1+n2;
-  } else {
-    return "Wrong Parameter";
-  }
-  window.setTimeout(() => {
+    window.setTimeout(() => {
    callback(sum);
   }, delayTime);
 
+  } else {
+    return "Wrong Parameter";
+  }
 }
 
 delayedResult(4, 5, 3000, function(result){
