@@ -26,6 +26,14 @@ delayedResult(-5, 10, 2000, function(result){
 
 function ajax(src, callback){
   // your code here
+  var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        document.getElementById('ajax').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.open('GET', 'sidebar.html');
+    xhr.send();
 }
 function render(data){
   // your code here.
