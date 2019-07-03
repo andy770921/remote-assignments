@@ -5,8 +5,8 @@ function delayedResult(n1, n2, delayTime, callback){
   if ( Number.isInteger(n1) &&  Number.isInteger(n2)){
     const sum = n1+n2;
     window.setTimeout(() => {
-   callback(sum);
-  }, delayTime);
+    callback(sum);
+    }, delayTime);
 
   } else {
     return "Wrong Parameter";
