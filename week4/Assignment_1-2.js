@@ -29,7 +29,8 @@ function ajax(src, callback){
   var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status == 200) {
-        document.getElementById('ajax').innerHTML = xhr.responseText;
+        callback();
+        //document.getElementById('ajax').innerHTML = xhr.responseText;
       }
     };
     xhr.open('GET', src);
@@ -38,6 +39,11 @@ function ajax(src, callback){
 function render(data){
   // your code here.
   // document.createElement() and appendChild() methods are preferred.
+  let body = document.getElementsByTagName('body')[0];
+  let p = document.createElement('p');
+  p.textContent = data;
+  body.appendChild(p);
+  
 }
 ajax("https://cwpeng.github.io/live-records-samples/data/products.json", function(response){
   render(response);
