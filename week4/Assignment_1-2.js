@@ -44,7 +44,17 @@ function render(data){
   body.appendChild(h3);
   body.appendChild(p);
   h3.innerHTML = 'The response data are as follows:';
-  p.innerHTML = data;
+  parsedObj = JSON.parse(data);
+  for (var i = 0; i < parsedObj.length; i++){
+    p.innerHTML += `Name: ${parsedObj[i].name}`;
+    p.appendChild(document.createElement("br")); 
+    p.innerHTML +=  `Price: ${parsedObj[i].price}`;
+    p.appendChild(document.createElement("br")); 
+    p.innerHTML += `Description: ${parsedObj[i].description}`;
+    p.appendChild(document.createElement("br"));
+    p.appendChild(document.createElement("br"));
+  }
+
 }
 ajax("https://cwpeng.github.io/live-records-samples/data/products.json", function(response){
   render(response);
