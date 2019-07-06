@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-const manu_btn = document.querySelector('.manu_btn');
-const cross = document.querySelector('.cross');
+
 const main_nav = document.querySelector('.main-nav');
 
 class Header extends Component {
