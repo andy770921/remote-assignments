@@ -1,39 +1,39 @@
 import React, { Component } from 'react';
 
 
-const main_nav = document.querySelector('.main-nav');
-
 class Header extends Component {
+    state = {
+        manuStyle: {},
+        liStyle: {}
+    };
+
+    manuStyle = {
+        display : "block",
+        position: "fixed",
+        width : "35%",
+        height : "100%",
+        minWidth : "200px",
+        backgroundColor : "white",
+        top : "0",
+        right : "0",
+        textAlign : "left"
+    };
+
+    liStyle = {
+        display : "block",
+        margin : "1.8em 0"
+    };
 
     handleClickMenu = (event) => {
         event.target.style.visibility = "hidden";
         event.target.nextElementSibling.style.visibility = "visible";
-        main_nav.style.display = "block";
-        main_nav.style.position = "fixed";
-        main_nav.style.width = "35%";
-        main_nav.style.height = "100%";
-        main_nav.style.minWidth = "200px";
-        main_nav.style.backgroundColor = "white";
-        main_nav.style.top = "0";
-        main_nav.style.right = "0";
-        main_nav.style.textAlign = "left";
-        for (var i = 0; i < main_nav.children.length; i++) {
-            main_nav.children[i].style.display = "block";
-            main_nav.children[i].style.margin = "1.8em 0";
-        };
+        this.setState(prevState => ({  manuStyle: this.manuStyle, liStyle: this.liStyle }));
     };
 
     handleClickCross = (event) => {
         event.target.style.visibility = "hidden";
         event.target.previousElementSibling.style.visibility = "visible";
-        main_nav.style.width = "auto";
-        main_nav.style.backgroundColor = "transparent";
-        main_nav.style.position = "static";
-        for (var i = 0; i < main_nav.children.length; i++) {
-            main_nav.children[i].style.display = "inline";
-            main_nav.children[i].style.margin = "0";
-        }
-        main_nav.style.display = "none";
+        this.setState(prevState => ({  manuStyle: {}, liStyle: {} }));
     };
 
     render() {
@@ -41,11 +41,11 @@ class Header extends Component {
             <header className="main-header">
                 <div className="container group">
                     <h3 className="website-title">Website Title / Logo</h3>
-                    <ul className="main-nav">
-                        <li><a href="#">Item 1</a></li>
-                        <li><a href="#">Item 2</a></li>
-                        <li><a href="#">Item 3</a></li>
-                        <li><a href="#">Item 4</a></li>
+                    <ul className="main-nav" style={this.state.manuStyle}>
+                        <li style={this.state.liStyle}><a href="#">Item 1</a></li>
+                        <li style={this.state.liStyle}><a href="#">Item 2</a></li>
+                        <li style={this.state.liStyle}><a href="#">Item 3</a></li>
+                        <li style={this.state.liStyle}><a href="#">Item 4</a></li>
                     </ul>
                     <div className="manu_btn" onClick={this.handleClickMenu}></div>
                     <div className="cross" onClick={this.handleClickCross}></div>
