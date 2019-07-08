@@ -141,7 +141,7 @@ a:link {
 /* ---- 4-box extension ---- */
 
 .extension {
-  display: none;
+  display: default;
 }
 /* ================================= 
   Clearfix

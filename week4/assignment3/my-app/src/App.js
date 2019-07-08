@@ -7,10 +7,13 @@ import './css/normalize.css';
 import './css/style.css';
 
 class App extends Component {
+  state = {
+    extended: false,
+    cursorStyle: {}
+  };
 
   handleClickExt = (e) => {
-    e.target.parentNode.nextElementSibling.style.display = "block";
-    e.target.style.cursor = "default";
+    this.setState(prevState => ({  extended: true , cursorStyle: {cursor: "default"} }));
   }
 
   render() {
@@ -21,10 +24,10 @@ class App extends Component {
         <MainContent />
 
         <div className="intermediate">
-          <p className="addCursor" onClick={this.handleClickExt}>Call to Action</p>
+          <p className="addCursor" onClick={this.handleClickExt} style={this.state.cursorStyle}>Call to Action</p>
         </div>
 
-        <ExtendedContent />
+        {(this.state.extended)? <ExtendedContent /> : ''}
 
         <footer className="main-footer">
         </footer>
