@@ -72,7 +72,7 @@ li {
   margin-right: 20px;
   margin-top: 5px;
   cursor: pointer;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .cross::before {

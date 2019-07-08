@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 class Header extends Component {
     state = {
         manuStyle: {},
-        liStyle: {}
+        liStyle: {},
+        showManuBtn: true,
+        showCrossBtn: false
     };
 
     manuStyle = {
@@ -25,15 +27,11 @@ class Header extends Component {
     };
 
     handleClickMenu = (event) => {
-        event.target.style.visibility = "hidden";
-        event.target.nextElementSibling.style.visibility = "visible";
-        this.setState(prevState => ({  manuStyle: this.manuStyle, liStyle: this.liStyle }));
+        this.setState(prevState => ({  manuStyle: this.manuStyle, liStyle: this.liStyle, showManuBtn: false, showCrossBtn: true }));
     };
 
     handleClickCross = (event) => {
-        event.target.style.visibility = "hidden";
-        event.target.previousElementSibling.style.visibility = "visible";
-        this.setState(prevState => ({  manuStyle: {}, liStyle: {} }));
+        this.setState(prevState => ({  manuStyle: {}, liStyle: {} , showManuBtn: true, showCrossBtn: false}));
     };
 
     render() {
@@ -47,8 +45,8 @@ class Header extends Component {
                         <li style={this.state.liStyle}><a href="#">Item 3</a></li>
                         <li style={this.state.liStyle}><a href="#">Item 4</a></li>
                     </ul>
-                    <div className="manu_btn" onClick={this.handleClickMenu}></div>
-                    <div className="cross" onClick={this.handleClickCross}></div>
+                    {(this.state.showManuBtn)? <div className="manu_btn" onClick={this.handleClickMenu}></div>: ''}
+                    {(this.state.showCrossBtn)? <div className="cross" onClick={this.handleClickCross}></div>: ''}
                 </div>
             </header>
         );
