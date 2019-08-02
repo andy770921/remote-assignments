@@ -35,6 +35,8 @@ Menu 的部分是直接電腦和手機版本各用一組
 接著改成用 flex-direction : column 讓它直的排列
 他高度不夠的時候就會擠到換行
 
+![image](https://github.com/andy770921/remote-assignments/blob/master/Stylish_Week_1_part_2.png)
+
 2. week1 part4:
 
 - a. 座標定義 https://andyyou.github.io/2017/01/31/understand-coordinate-of-dom/
