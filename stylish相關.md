@@ -49,9 +49,9 @@ https://blog.csdn.net/china_skag/article/details/30512877
 
 3. week2 part2:
 
-a. 依照圖片 id，設定該圖的超連結網址為 http://自己的網址/stylish/product.html?id=201807202140
-b. index 點擊圖 ，index 偵測到點擊事件，跳轉到 product
-c. product 頁面，用函數先抓出問號後面的 id 值 and 設定渲染畫面的 ajax url 網址
+- a. 依照圖片 id，設定該圖的超連結網址為 http://自己的網址/stylish/product.html?id=201807202140
+- b. index 點擊圖 ，index 偵測到點擊事件，跳轉到 product
+- c. product 頁面，用函數先抓出問號後面的 id 值 and 設定渲染畫面的 ajax url 網址
 
 
 關於如何抓出 id 後面的值可參考以下網站
@@ -61,16 +61,15 @@ https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-
 
 用 AJAX 送 Data 給 Server。白話的說明方便理解，有誤請再跟我說
 觀念:
-a. 方法要用 post 。```xhr.open('GET', src);``` 換成 ```xhr.open('POST', src);```
-b. 之後還要設定給 server 看的標頭檔 header ，需要使用 ```xhr.setRequestHeader('Content-type', 'application/json'); ```，server 看標頭檔會大概知道這裡面是甚麼東西。
-c. 之後將我們的物件 stringfy 後送出 ```xhr.send(stringfiedObj); ```，也回收 server 傳給我們的數字 ( 200 或 201 ) 及 JSON 資料
-
-d. 回收的數字，意義可參考以下。在 Week 3 Part 2 ，會回收到 200 。
+- a. 方法要用 post 。```xhr.open('GET', src);``` 換成 ```xhr.open('POST', src);```
+- b. 之後還要設定給 server 看的標頭檔 header ，需要使用 ```xhr.setRequestHeader('Content-type', 'application/json'); ```，server 看標頭檔會大概知道這裡面是甚麼東西。
+- c. 之後將我們的物件 stringfy 後送出 ```xhr.send(stringfiedObj); ```，也回收 server 傳給我們的數字 ( 200 或 201 ) 及 JSON 資料
+- d. 回收的數字，意義可參考以下。在 Week 3 Part 2 ，會回收到 200 。
 
 
 實作 code 參考 :
-a. https://gist.github.com/EtienneR/2f3ab345df502bd3d13e
-b. https://www.quora.com/What-is-the-way-to-send-a-JSON-object-via-a-POST-request-in-JavaScript-not-jQuery-or-Nodejs
+- a. https://gist.github.com/EtienneR/2f3ab345df502bd3d13e
+- b. https://www.quora.com/What-is-the-way-to-send-a-JSON-object-via-a-POST-request-in-JavaScript-not-jQuery-or-Nodejs
 數字意義 :
 https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status
 中文深入說明 :
