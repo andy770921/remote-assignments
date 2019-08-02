@@ -38,7 +38,7 @@ Menu 的部分是直接電腦和手機版本各用一組
 2. week1 part4:
 
 a. 座標定義 https://andyyou.github.io/2017/01/31/understand-coordinate-of-dom/
-b. (圖中A.B) 動態取得相對於目前視窗座標軸上，元件座標位置: document.getElementsByClassName('container-5')[0].getBoundingClientRect().bottom; (或.top)
+b. (圖中A.B) 動態取得相對於目前視窗座標軸上，元件座標位置: ```document.getElementsByClassName('container-5')[0].getBoundingClientRect().bottom;``` (或.top)
 https://juejin.im/entry/59c1fd23f265da06594316a9?fbclid=IwAR1j1TZ7TWBkqipedDJMi5EDLj3v9ZEdI9WHnrZ34ZAEGmM8G4A7NNqwhps
 c. (圖中C) 動態取得目前scroll bar捲動長度，可直接使用範例程式碼。: 引入事件監聽函數，隨時可取得當下位置y座標 scroll_pos，或自己一次性使用window.scrollY
 https://developer.mozilla.org/zh-TW/docs/Web/API/Document/scroll_event
@@ -52,7 +52,8 @@ https://blog.csdn.net/china_skag/article/details/30512877
 a. 依照圖片 id，設定該圖的超連結網址為 http://自己的網址/stylish/product.html?id=201807202140
 b. index 點擊圖 ，index 偵測到點擊事件，跳轉到 product
 c. product 頁面，用函數先抓出問號後面的 id 值 and 設定渲染畫面的 ajax url 網址
-------
+
+
 關於如何抓出 id 後面的值可參考以下網站
 https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 
@@ -60,11 +61,13 @@ https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-
 
 用 AJAX 送 Data 給 Server。白話的說明方便理解，有誤請再跟我說
 觀念:
-a. 方法要用 post 。xhr.open('GET', src); 換成 xhr.open('POST', src);
-b. 之後還要設定給 server 看的標頭檔 header ，需要使用 xhr.setRequestHeader('Content-type', 'application/json'); ，server 看標頭檔會大概知道這裡面是甚麼東西。
-c. 之後將我們的物件 stringfy 後送出 xhr.send(stringfiedObj); ，也回收 server 傳給我們的數字 ( 200 或 201 ) 及 JSON 資料
+a. 方法要用 post 。```xhr.open('GET', src);``` 換成 ```xhr.open('POST', src);```
+b. 之後還要設定給 server 看的標頭檔 header ，需要使用 ```xhr.setRequestHeader('Content-type', 'application/json'); ```，server 看標頭檔會大概知道這裡面是甚麼東西。
+c. 之後將我們的物件 stringfy 後送出 ```xhr.send(stringfiedObj); ```，也回收 server 傳給我們的數字 ( 200 或 201 ) 及 JSON 資料
+
 d. 回收的數字，意義可參考以下。在 Week 3 Part 2 ，會回收到 200 。
-----------------------------------------
+
+
 實作 code 參考 :
 a. https://gist.github.com/EtienneR/2f3ab345df502bd3d13e
 b. https://www.quora.com/What-is-the-way-to-send-a-JSON-object-via-a-POST-request-in-JavaScript-not-jQuery-or-Nodejs
