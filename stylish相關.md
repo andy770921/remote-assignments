@@ -52,10 +52,7 @@ https://blog.csdn.net/china_skag/article/details/30512877
 - a. 依照圖片 id，設定該圖的超連結網址為 http://自己的網址/stylish/product.html?id=201807202140
 - b. index 點擊圖 ，index 偵測到點擊事件，跳轉到 product
 - c. product 頁面，用函數先抓出問號後面的 id 值 and 設定渲染畫面的 ajax url 網址
-
-
-關於如何抓出 id 後面的值可參考以下網站
-https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+- 關於如何抓出 id 後面的值可參考以下網站: https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 
 4. week3 part2:
 
@@ -70,7 +67,5 @@ https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-
 實作 code 參考 :
 - a. https://gist.github.com/EtienneR/2f3ab345df502bd3d13e
 - b. https://www.quora.com/What-is-the-way-to-send-a-JSON-object-via-a-POST-request-in-JavaScript-not-jQuery-or-Nodejs
-數字意義 :
-https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status
-中文深入說明 :
-https://segmentfault.com/a/1190000004322487 
+- 數字意義 : https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status
+- 中文深入說明 : https://segmentfault.com/a/1190000004322487 
