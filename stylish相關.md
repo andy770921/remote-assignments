@@ -36,7 +36,7 @@ Menu 的部分是直接電腦和手機版本各用一組
 他高度不夠的時候就會擠到換行
 
 2. week1 part4:
-
+![image](https://github.com/andy770921/JS_project/blob/master/JS_concept_Scroll.bmp)
 - a. 座標定義 https://andyyou.github.io/2017/01/31/understand-coordinate-of-dom/
 - b. (圖中A.B) 動態取得相對於目前視窗座標軸上，元件座標位置: ```document.getElementsByClassName('container-5')[0].getBoundingClientRect().bottom;``` (或.top)
 https://juejin.im/entry/59c1fd23f265da06594316a9?fbclid=IwAR1j1TZ7TWBkqipedDJMi5EDLj3v9ZEdI9WHnrZ34ZAEGmM8G4A7NNqwhps
