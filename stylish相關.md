@@ -60,7 +60,7 @@ https://blog.csdn.net/china_skag/article/details/30512877
 
 4. week3 part2:
 
-用 AJAX 送 Data 給 Server。白話的說明方便理解，有誤請再跟我說
+用 AJAX 送 Data 給 Server。
 觀念:
 - a. 方法要用 post 。```xhr.open('GET', src);``` 換成 ```xhr.open('POST', src);```
 - b. 之後還要設定給 server 看的標頭檔 header ，需要使用 ```xhr.setRequestHeader('Content-type', 'application/json'); ```，server 看標頭檔會大概知道這裡面是甚麼東西。
