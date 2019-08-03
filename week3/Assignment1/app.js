@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 
+app.set('view engine', 'pug');
 app.get('/', (req, res) => {
-  res.send('Hello, My Server!');
+  //res.send('Hello, My Server!');
+  res.render('index');
 });
 app.get('/getData', (req, res) => {
   if (req.query.number === undefined) {
