@@ -1,19 +1,16 @@
-Week 3 Project 1 Code Review
-請大家分組討論準備「每個」主題的報告。
-明天早上，每一題都會隨機請一個組別派人上台分享，並回答問題，同組的其他人可以隨時支援。
-==============
-前端
-----------------
+# Week 3 Project 1 Code Review
+
+# 前端
 1. Describe CSS Display and Flex Layout: inline, block, inline-block, flex.
 2. How to Encapsulate createElement Feature?
 3. What is Event Object? How to Use it?
 4. Figure Out Code for Data, State and UI.
 5. How to Encapsulate Asynchronous Code? e.g. AJAX.
 6. How to Encapsulate Facebook Login Procedure?
+### https://drive.google.com/file/d/1qQ5-tK2jj8_NzPVKMGgQ9dMiT9P1xujc/view
 
-==============
-後端
-----------------
+# 後端
+
 1. Why and How to Use Transaction?
 2. Why and How to Create Index?
 3. Find Out Foreign Key in My Database. Explain Why and How to Use Them.
@@ -27,20 +24,25 @@ https://cwpeng.github.io/training/cors.html
 測試執行速度的網頁
 https://cwpeng.github.io/training/performance.html 
 
-------------------
+# Week 3 Project 2 
+
+## team 1
 
 1. Prototype Chain and Class Inheritance (請完整描述觀念 + 簡單範例)
 2. Functional Programming and Object Oriented Programming (請描述兩種設計模式的主要思維方式和優缺點)
 3. HTTP Caching (請描述快取的一般性觀念，以及實際的使用情境)
 4. Domain Name System (請描述基本概念，如何建立自有網域、子網域、常見的記錄型態)
 
+## team 2
 
 1. Callback and Promise for Asynchronous Flow (請完整描述觀念 + 簡單範例)
 2. MVC Design Pattern (請描述此設計模式的關鍵思維方式，在前端的情境，以及在後端的情境)
 3. Single Page Application v.s. Multi-page Application - Server Side Rendering (請描述兩種
 做法的特色，並描述 SSR 要解決的問題，若能加上簡單範例更好)
 4. Primitive Data Type v.s. Reference Data Type. (資料型態的分類方式，提供簡單的範例描述撰寫程式時，可能的影響)
-Ref: https://hackmd.io/Z3d7a9mpR9auJnqAcQDlmg
+### https://hackmd.io/Z3d7a9mpR9auJnqAcQDlmg
+
+## team 3
 
 1. Public Key Cryptography - Concept and Use Cases (請描述觀念，和可能的應用情境)
 2. Variable Scope and Closure (請描述觀念 + 簡單範例)
