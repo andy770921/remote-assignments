@@ -1,4 +1,4 @@
-Project 1 Code Review
+Week 3 Project 1 Code Review
 請大家分組討論準備「每個」主題的報告。
 明天早上，每一題都會隨機請一個組別派人上台分享，並回答問題，同組的其他人可以隨時支援。
 ==============
@@ -40,7 +40,7 @@ https://cwpeng.github.io/training/performance.html
 3. Single Page Application v.s. Multi-page Application - Server Side Rendering (請描述兩種
 做法的特色，並描述 SSR 要解決的問題，若能加上簡單範例更好)
 4. Primitive Data Type v.s. Reference Data Type. (資料型態的分類方式，提供簡單的範例描述撰寫程式時，可能的影響)
-
+Ref: https://hackmd.io/Z3d7a9mpR9auJnqAcQDlmg
 
 1. Public Key Cryptography - Concept and Use Cases (請描述觀念，和可能的應用情境)
 2. Variable Scope and Closure (請描述觀念 + 簡單範例)
