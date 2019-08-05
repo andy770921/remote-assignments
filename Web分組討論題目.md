@@ -18,10 +18,9 @@
 5. What is CORS? How to Handle CORS Problem?
 6. Describe How My Cache Library Works?
 
-今天的兩個測試網頁
-測試  CORS 的網頁
+7. 測試  CORS 的網頁
 https://cwpeng.github.io/training/cors.html
-測試執行速度的網頁
+8. 測試執行速度的網頁
 https://cwpeng.github.io/training/performance.html 
 
 # Week 3 Project 2 
