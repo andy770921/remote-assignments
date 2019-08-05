@@ -32,6 +32,8 @@ https://cwpeng.github.io/training/performance.html
 3. HTTP Caching (請描述快取的一般性觀念，以及實際的使用情境)
 4. Domain Name System (請描述基本概念，如何建立自有網域、子網域、常見的記錄型態)
 
+### https://docs.google.com/presentation/d/1Wjh-zVIRqsaTKrQ-vU7esQC0FZlPQuM3mrrJiOGNsxQ/edit?usp=sharing
+
 ## team 2
 
 1. Callback and Promise for Asynchronous Flow (請完整描述觀念 + 簡單範例)
@@ -53,3 +55,5 @@ http://travistidwell.com/blog/2013/09/06/an-online-rsa-public-and-private-key-ge
 
 6. Free CA (數位憑證)
 https://letsencrypt.org/
+
+### https://docs.google.com/presentation/d/1ZdDGHySQp8f7JcakfWv5bVRB1nKVjGK_i_Q7nSRbTaQ/edit?usp=sharing
