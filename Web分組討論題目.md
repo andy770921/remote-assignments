@@ -57,3 +57,35 @@ http://travistidwell.com/blog/2013/09/06/an-online-rsa-public-and-private-key-ge
 https://letsencrypt.org/
 
 ### https://docs.google.com/presentation/d/1ZdDGHySQp8f7JcakfWv5bVRB1nKVjGK_i_Q7nSRbTaQ/edit?usp=sharing
+
+
+# Week 3 Project 3 
+
+## team 1
+
+1. Webpack Quick Start - Why and How
+2. React Quick Start - Why and How
+
+
+## team 2
+1. Grid Layout - Concept and Examples
+2. Web Storage and Cookie - Concept and Use Cases
+
+### https://docs.google.com/presentation/d/1A1eJPuMpLezQ7RNuXxQICoMOwLH1Rdds-dVS9MBtbAI/edit?ts=5d482e7c#slide=id.p
+### https://hackmd.io/3T_0JHaSQC6ars0NFZh9WA?view
+
+## team 3
+1. Binding Object and Arrow Function - Concept and Examples
+2. Firebase Database Quick Start - Why and How
+
+## team 4
+1. Database Connection Pool - Why and How
+2. Database Normalization - Optimization Guidance
+
+## team 5
+1. Virtualization and Docker - Concept and Quick Start
+2. Race Condition and Deadlock - Concept
+
+## team 6
+1. SQL v.s. No-SQL Database - Concept and How to Choose
+2. Node Event Loop - Concept and Examples
