@@ -6,6 +6,8 @@ https://youtu.be/4d-gIPGzmK4
 
 ## 同學報告
 
+### https://hackmd.io/PEuwxycnRA6oDXsvGHc-4w
+### https://youtu.be/UFLvSp4Mh9k
 
 ## 專案中 Time Stemp 取法
 
