@@ -41,6 +41,7 @@ https://cwpeng.github.io/training/performance.html
 3. Single Page Application v.s. Multi-page Application - Server Side Rendering (請描述兩種
 做法的特色，並描述 SSR 要解決的問題，若能加上簡單範例更好)
 4. Primitive Data Type v.s. Reference Data Type. (資料型態的分類方式，提供簡單的範例描述撰寫程式時，可能的影響)
+
 ### https://hackmd.io/Z3d7a9mpR9auJnqAcQDlmg
 
 ## team 3
@@ -66,6 +67,7 @@ https://letsencrypt.org/
 1. Webpack Quick Start - Why and How
 2. React Quick Start - Why and How
 
+### https://hackmd.io/LFKDc8N7TV64AkS0aVNSuw?fbclid=IwAR0Ce_5el6D08bHJpzG7qY45DE95HLuL7pwYm5iTGdvthJ7rjZrRxBpeYrA
 
 ## team 2
 1. Grid Layout - Concept and Examples
@@ -78,14 +80,25 @@ https://letsencrypt.org/
 1. Binding Object and Arrow Function - Concept and Examples
 2. Firebase Database Quick Start - Why and How
 
+### https://hackmd.io/PEuwxycnRA6oDXsvGHc-4w
+### https://youtu.be/UFLvSp4Mh9k
+
+Mango DB Ref: https://blog.toright.com/posts/4483/mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97.html
+
 ## team 4
 1. Database Connection Pool - Why and How
 2. Database Normalization - Optimization Guidance
+
+### https://docs.google.com/presentation/d/1qGzF0Vje1q5cn2TDs3tByVROGU5BwqgMknxS4nDEGYE/edit?usp=sharing
 
 ## team 5
 1. Virtualization and Docker - Concept and Quick Start
 2. Race Condition and Deadlock - Concept
 
+### https://hackmd.io/zUBFLWiVSXGKNoMZlLaR3A
+
 ## team 6
 1. SQL v.s. No-SQL Database - Concept and How to Choose
 2. Node Event Loop - Concept and Examples
+
+### https://docs.google.com/presentation/d/1PtRiny7RRBnbHVUUwoz46jKsr82uQA05HjTWD1kQCk4/edit?usp=sharing
