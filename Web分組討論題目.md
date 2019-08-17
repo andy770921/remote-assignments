@@ -82,6 +82,7 @@ https://letsencrypt.org/
 
 ### https://hackmd.io/PEuwxycnRA6oDXsvGHc-4w
 ### https://youtu.be/UFLvSp4Mh9k
+### https://youtu.be/NHliVGQef-4
 
 Mango DB Ref: https://blog.toright.com/posts/4483/mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97.html
 
