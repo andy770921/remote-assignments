@@ -97,6 +97,7 @@ Mango DB Ref: https://blog.toright.com/posts/4483/mongodb-schema-%E8%A8%AD%E8%A8
 2. Race Condition and Deadlock - Concept
 
 ### https://hackmd.io/zUBFLWiVSXGKNoMZlLaR3A
+### https://hackmd.io/@uoFaNlktTwuOMah6WLMbXA/SyrqM7_NH
 
 ## team 6
 1. SQL v.s. No-SQL Database - Concept and How to Choose
