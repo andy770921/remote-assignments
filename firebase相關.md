@@ -27,4 +27,5 @@ Ex:
 6. 多重條件的 Query，有時候 Firebase 並不支援，可以透過 新增 Index (索引) 的規則，讓 Firebase 支援這個條件的 Query。
 
 ## 上傳 JSON 到 firebase
+- Note:  node 去跑程式的時候，import.js 檔案裡路徑要打完整的，await firestoreService.restore 後面接的東西，沒有完整的話會跑出一些看不懂的 error
 https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57
