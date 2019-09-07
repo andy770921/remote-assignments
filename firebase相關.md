@@ -25,3 +25,6 @@ Ex:
 	- Create a extra key-value pair for searching functionality.
 5. 可以 `重複利用 User 的 Random ID`，用以建立同一個使用者的資料，方便搜尋。
 6. 多重條件的 Query，有時候 Firebase 並不支援，可以透過 新增 Index (索引) 的規則，讓 Firebase 支援這個條件的 Query。
+
+## 上傳 JSON 到 firebase
+https://levelup.gitconnected.com/firebase-import-json-to-firestore-ed6a4adc2b57
